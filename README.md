@@ -15,3 +15,22 @@ Based on the parallelized framework, we adopt an attention-guided masking strate
 <img src=assets/model_big.png />
 </p>
 TARDRL comprises four major components: an attention-guided mask layer only activated during reconstruction, a shared encoder composed of spatial transformer (STF) and temporal transformer (TTF), a predictor for prediction tasks, and a decoder for task-aware reconstruction.
+
+## Environment setup
+
+## Prepare Data
+
+## run
+
+## Citation
+```
+@inproceedings{zhao2024tardrl,
+  title={TARDRL: Task-Aware Reconstruction for Dynamic Representation Learning of fMRI},
+  author={Zhao, Yunxi and Nie, Dong and Chen, Geng and Wu, Xia and Zhang, Daoqiang and Wen, Xuyun},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={700--710},
+  year={2024},
+  organization={Springer}
+}
+
+```
