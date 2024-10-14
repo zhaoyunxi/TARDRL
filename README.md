@@ -20,7 +20,7 @@ TARDRL comprises four major components: an attention-guided mask layer only acti
 
 ## Prepare Data
 
-## run
+## Run
 
 ## Citation
 ```
