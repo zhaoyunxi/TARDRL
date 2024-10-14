@@ -18,7 +18,11 @@ Based on the parallelized framework, we adopt an attention-guided masking strate
 **TARDRL** comprises four major components: an attention-guided mask layer only activated during reconstruction, a shared encoder composed of spatial transformer (STF) and temporal transformer (TTF), a predictor for prediction tasks, and a decoder for task-aware reconstruction.
 
 ## Environment setup
-
+Create and activate conda environment named ```tardrl``` from our ```environment.yaml```
+```sh
+conda env create -f environment.yaml
+conda activate tardrl
+```
 ## Prepare Data
 
 ## Run
