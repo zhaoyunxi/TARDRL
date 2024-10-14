@@ -14,6 +14,7 @@ Based on the parallelized framework, we adopt an attention-guided masking strate
 <p align="center">
 <img src=assets/model_big.png />
 </p>
+
 **TARDRL** comprises four major components: an attention-guided mask layer only activated during reconstruction, a shared encoder composed of spatial transformer (STF) and temporal transformer (TTF), a predictor for prediction tasks, and a decoder for task-aware reconstruction.
 
 ## Environment setup
