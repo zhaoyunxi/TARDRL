@@ -1,6 +1,6 @@
 # TARDRL: Task-Aware Reconstruction for Dynamic Representation Learning of fMRI
 ## TARDRL
-Task-Aware Reconstruction Dynamic Rpresentation Learning (TARDRL) is a novel algorithm to improve prediction performance with task-aware reconstruction. Different from the conventional sequential design on the reconstruction and prediction, we set up the reconstruction and prediction task in a parallel paradigm to learn robust task-aware representations (training TARDRL in a multi-task learning way).
+**Task-Aware Reconstruction Dynamic Rpresentation Learning** (TARDRL) is a novel algorithm to improve prediction performance with task-aware reconstruction. Different from the conventional sequential design on the reconstruction and prediction, we set up the reconstruction and prediction task in a parallel paradigm to learn robust task-aware representations (training TARDRL in a multi-task learning way).
 <p align="center">
 <img src=assets/idea_img.png />
 </p>
@@ -14,7 +14,7 @@ Based on the parallelized framework, we adopt an attention-guided masking strate
 <p align="center">
 <img src=assets/model_big.png />
 </p>
-TARDRL comprises four major components: an attention-guided mask layer only activated during reconstruction, a shared encoder composed of spatial transformer (STF) and temporal transformer (TTF), a predictor for prediction tasks, and a decoder for task-aware reconstruction.
+**TARDRL** comprises four major components: an attention-guided mask layer only activated during reconstruction, a shared encoder composed of spatial transformer (STF) and temporal transformer (TTF), a predictor for prediction tasks, and a decoder for task-aware reconstruction.
 
 ## Environment setup
 
