@@ -24,7 +24,7 @@ conda env create -f environment.yaml
 conda activate tardrl
 ```
 ## Prepare Data
-The ABIDE dataset can be downloaded from [here](http://preprocessed-connectomes-project.org/abide/)
+The ABIDE dataset can be downloaded from [here](http://preprocessed-connectomes-project.org/abide/), and ADNI dataset can be downloaded from [here](https://adni.loni.usc.edu/).
 
 
 ## Citation
